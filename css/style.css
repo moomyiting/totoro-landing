@@ -74,7 +74,7 @@ a:visited {
 
 /* line 35, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .thm-base-bg {
-  background-color: #ff8257;
+  background-color: #4DA1FF;
 }
 
 /* line 39, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
@@ -171,7 +171,7 @@ hr.style-one {
 
 /* line 118, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select .dropdown-menu > li.selected > a {
-  background: #ff8257;
+  background: #4DA1FF;
   color: #fff;
 }
 
@@ -187,7 +187,7 @@ hr.style-one {
 
 /* line 131, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select .dropdown-menu > li > a:hover {
-  background: #ff8257;
+  background: #4DA1FF;
   color: #fff;
   cursor: pointer;
 }
@@ -211,7 +211,7 @@ hr.style-one {
   display: inline-block;
   width: 45px;
   height: 45px;
-  background: #ff8257;
+  background: #4DA1FF;
   position: fixed;
   bottom: 40px;
   right: 40px;
@@ -351,7 +351,7 @@ hr.style-one {
 /* line 92, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation ul.navigation-box > li.current > a,
 .header-navigation ul.navigation-box > li:hover > a {
-  color: #FF8257;
+  color: #4DA1FF;
 }
 
 /* line 32, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
@@ -421,7 +421,7 @@ hr.style-one {
 /* line 89, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > .sub-menu > li:hover > a {
   color: #fff;
-  background: #ff8257;
+  background: #4DA1FF;
 }
 
 /* line 101, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
@@ -508,7 +508,7 @@ hr.style-one {
 /* line 89, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > ul > li > .sub-menu > li:hover > a {
   color: #fff;
-  background: #ff8257;
+  background: #4DA1FF;
 }
 
 /* line 100, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
@@ -535,7 +535,7 @@ hr.style-one {
 .header-one__btn {
   display: inline-block;
   vertical-align: middle;
-  color: #FF8257;
+  color: #4DA1FF;
   font-size: 16px;
   font-weight: 600;
   line-height: 1em;
@@ -547,9 +547,9 @@ hr.style-one {
 
 /* line 145, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one__btn:hover {
-  background-color: #FF8257;
+  background-color: #4DA1FF;
   color: #fff;
-  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(77, 161, 255, 0.3);
 }
 
 /* line 154, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
@@ -598,8 +598,8 @@ hr.style-one {
 /* line 193, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one__home-two .header-one__btn {
   color: #fff;
-  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
-  background-color: #ff8257;
+  box-shadow: 0px 10px 30px 0px rgba(77, 161, 255, 0.3);
+  background-color: #4DA1FF;
 }
 
 /* line 198, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
@@ -699,13 +699,13 @@ hr.style-one {
   vertical-align: middle;
   border-radius: 32px;
   text-align: center;
-  background-color: #FF8257;
+  background-color: #4DA1FF;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
   padding: 15px 59.5px;
   transition: all .4s ease;
-  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
 }
 
 /* line 86, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
@@ -835,7 +835,7 @@ hr.style-one {
 
 /* line 70, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer__bottom-footer p a {
-  color: #FF8257;
+  color: #4DA1FF;
   transition: all .4s ease;
 }
 
@@ -878,7 +878,7 @@ hr.style-one {
 
 /* line 107, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget .social-block a:hover {
-  color: #FF8257;
+  color: #4DA1FF;
 }
 
 /* line 114, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
@@ -929,7 +929,7 @@ hr.style-one {
 .footer-widget__link-list li a:before {
   content: '\f101';
   font-family: 'FontAwesome';
-  color: #FF8257;
+  color: #4DA1FF;
   font-size: 14px;
   position: absolute;
   top: 50%;
@@ -1015,7 +1015,7 @@ hr.style-one {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #FF8257;
+  background-color: #4DA1FF;
   width: 211px;
   height: 64px;
   position: absolute;
@@ -1384,7 +1384,7 @@ hr.style-one {
 
 /* line 314, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-post-pagination a.active, .blog-post-pagination a:hover {
-  background: #ff8257;
+  background: #4DA1FF;
   color: #2e3d62;
 }
 
@@ -1594,7 +1594,7 @@ hr.style-one {
 
 /* line 487, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__date {
-  color: #FF8257;
+  color: #4DA1FF;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
@@ -1626,7 +1626,7 @@ hr.style-one {
   display: inline-block;
   vertical-align: middle;
   border-radius: 22px;
-  background-color: #FF8257;
+  background-color: #4DA1FF;
   text-align: center;
   color: #fff;
   font-weight: 600;
@@ -1699,7 +1699,7 @@ hr.style-one {
   border: none;
   outline: none !important;
   cursor: pointer;
-  background-color: #ff8257;
+  background-color: #4DA1FF;
   border-radius: 33.5px;
   color: #fff;
   font-size: 16px;
@@ -1844,12 +1844,12 @@ hr.style-one {
 
 /* line 114, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__single:nth-child(4) .inner-block:before {
-  border-color: #FF8257;
+  border-color: #4DA1FF;
 }
 
 /* line 118, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__single:nth-child(4) .inner-block .fun-fact-one__title {
-  color: #FF8257;
+  color: #4DA1FF;
 }
 
 /*
@@ -1939,7 +1939,7 @@ hr.style-one {
 
 /* line 23, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .single-testi-one h3 {
-  color: #FF8257;
+  color: #4DA1FF;
   font-weight: 600;
   font-size: 20px;
   margin: 0;
@@ -1983,7 +1983,7 @@ hr.style-one {
 /* line 61, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .bx-wrapper .bx-controls-direction a:hover {
   opacity: 1;
-  color: #FF8257;
+  color: #4DA1FF;
 }
 
 /* line 67, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
@@ -2038,7 +2038,7 @@ hr.style-one {
   width: 99px;
   height: 99px;
   border-radius: 50%;
-  background-color: #FF8257;
+  background-color: #4DA1FF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2050,7 +2050,7 @@ hr.style-one {
   width: 99px;
   height: 99px;
   border-radius: 50%;
-  background-color: #FF8257;
+  background-color: #4DA1FF;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2454,7 +2454,7 @@ hr.style-one {
 
 /* line 103, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__list-item i, .cta-four__list-item i {
-  color: #FF8257;
+  color: #4DA1FF;
   position: absolute;
   top: 50%;
   left: 0;
@@ -2472,14 +2472,14 @@ hr.style-one {
   vertical-align: middle;
   border-radius: 32px;
   text-align: center;
-  background-color: #FF8257;
+  background-color: #4DA1FF;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
   padding: 15px 59.5px;
   margin-top: 55px;
   transition: all .4s ease;
-  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
 }
 
 /* line 130, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
@@ -2570,7 +2570,7 @@ hr.style-one {
 /* line 205, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-icon {
   font-size: 64px;
-  color: #FF8257;
+  color: #4DA1FF;
 }
 
 /* line 211, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
@@ -2599,7 +2599,7 @@ hr.style-one {
 
 /* line 229, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-title a:hover {
-  color: #ff8257;
+  color: #4DA1FF;
 }
 
 /* line 238, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
@@ -2608,14 +2608,14 @@ hr.style-one {
   vertical-align: middle;
   border-radius: 32px;
   text-align: center;
-  background-color: #FF8257;
+  background-color: #4DA1FF;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
   padding: 15px 59.5px;
   margin-top: 50px;
   transition: all .4s ease;
-  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
 }
 
 /* line 252, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
@@ -2707,7 +2707,7 @@ hr.style-one {
 
 /* line 328, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__list-item i {
-  color: #FF8257;
+  color: #4DA1FF;
   position: absolute;
   top: 50%;
   left: 0;
@@ -2725,14 +2725,14 @@ hr.style-one {
   vertical-align: middle;
   border-radius: 32px;
   text-align: center;
-  background-color: #FF8257;
+  background-color: #4DA1FF;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
   padding: 15px 59.5px;
   margin-top: 55px;
   transition: all .4s ease;
-  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
 }
 
 /* line 355, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
@@ -3047,7 +3047,7 @@ hr.style-one {
 
 /* line 63, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__post-title a:hover {
-  color: #ff8257;
+  color: #4DA1FF;
 }
 
 /* line 70, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
@@ -3075,7 +3075,7 @@ hr.style-one {
 .sidebar__category-list-item a:before {
   content: '\f101';
   font-family: 'FontAwesome';
-  color: #FF8257;
+  color: #4DA1FF;
   font-size: 14px;
   position: absolute;
   top: 50%;
@@ -3127,7 +3127,7 @@ hr.style-one {
 
 /* line 134, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__tags-list-item a:hover {
-  color: #ff8257;
+  color: #4DA1FF;
 }
 
 /* line 141, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
@@ -3135,7 +3135,7 @@ hr.style-one {
   width: 100%;
   height: 84px;
   border-radius: 4px;
-  background-color: #FF8257;
+  background-color: #4DA1FF;
 }
 
 /* line 147, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */

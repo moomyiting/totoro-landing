@@ -68,7 +68,7 @@
         font-size: 16px;
 
         a {
-            color: #FF8257;
+            color: #4DA1FF;
             transition: all .4s ease;
 
             &:hover {
@@ -105,7 +105,7 @@
             }
 
             &:hover {
-                color: #FF8257;
+                color: #4DA1FF;
             }
         }
     }
@@ -149,7 +149,7 @@
             &:before {
                 content: '\f101';
                 font-family: 'FontAwesome';
-                color: #FF8257;
+                color: #4DA1FF;
                 font-size: 14px;
                 position: absolute;
                 top: 50%;
@@ -211,7 +211,7 @@
         border: none;
         outline: none;
         cursor: pointer;
-        background-color: #FF8257;
+        background-color: #4DA1FF;
         width: 211px;
         height: 64px;
         position: absolute;
