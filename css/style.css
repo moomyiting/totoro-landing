@@ -35,6 +35,7 @@
 /*
 * 2. common styles
 */
+/* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -42,6 +43,7 @@ body {
   color: #666e82;
 }
 
+/* line 10, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 a:active,
 a:hover,
 a:focus,
@@ -49,6 +51,7 @@ a:visited {
   text-decoration: none;
 }
 
+/* line 17, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .page-wrapper {
   position: relative;
   margin: 0 auto;
@@ -58,31 +61,39 @@ a:visited {
 }
 
 @media (min-width: 1200px) {
+  /* line 26, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
   .container {
     max-width: 1200px;
   }
 }
+
+/* line 31, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .thm-black-bg {
   background-color: #2e3d62;
 }
 
+/* line 35, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .thm-base-bg {
-  background-color: #4DA1FF;
+  background-color: #ff8257;
 }
 
+/* line 39, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .thm-gray-bg {
   background-color: #F3F3F3;
 }
 
+/* line 43, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 hr.style-one {
   margin: 0;
   border-top: 1px solid #EAEAEA;
 }
 
+/* line 49, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .block-title {
   margin-bottom: 60px;
 }
 
+/* line 52, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .block-title__text {
   margin: 0;
   font-weight: bold;
@@ -90,12 +101,16 @@ hr.style-one {
   font-size: 50px;
   line-height: 60px;
 }
+
+/* line 58, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .block-title__text span {
   position: relative;
 }
+
+/* line 60, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .block-title__text span:before {
   content: '';
-  background-color: #4DA1FF;
+  background-color: #ff8257;
   opacity: 0.102;
   width: 100%;
   height: 8px;
@@ -105,48 +120,62 @@ hr.style-one {
   border-radius: 4px;
 }
 
+/* line 74, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .icon-revresed {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
   display: inline-block;
 }
 
+/* line 81, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select .btn-light:not(:disabled):not(.disabled).active,
 .bootstrap-select .btn-light:not(:disabled):not(.disabled):active,
 .bootstrap-select .show > .btn-light.dropdown-toggle {
   background-color: transparent;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   outline: none;
 }
+
+/* line 89, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select > .dropdown-toggle {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
+
+/* line 93, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select .dropdown-toggle:focus,
 .bootstrap-select > select.mobile-device:focus + .dropdown-toggle {
   outline: none !important;
 }
 
+/* line 99, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select .dropdown-menu {
   padding-top: 0;
   padding-bottom: 0;
   margin-top: 0;
   z-index: 991;
 }
+
+/* line 106, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select .dropdown-menu > li + li > a {
   border-top: 1px solid #eee;
 }
+
+/* line 110, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select .dropdown-menu > li:first-child > a {
   padding-top: 10px;
 }
+
+/* line 114, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select .dropdown-menu > li:last-child > a {
   padding-bottom: 10px;
 }
+
+/* line 118, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select .dropdown-menu > li.selected > a {
-  background: #4DA1FF;
+  background: #ff8257;
   color: #fff;
 }
+
+/* line 123, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select .dropdown-menu > li > a {
   font-size: 16px;
   font-weight: 500;
@@ -155,12 +184,15 @@ hr.style-one {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 131, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .bootstrap-select .dropdown-menu > li > a:hover {
-  background: #4DA1FF;
+  background: #ff8257;
   color: #fff;
   cursor: pointer;
 }
 
+/* line 141, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .preloader {
   position: fixed;
   top: 0;
@@ -174,25 +206,29 @@ hr.style-one {
   background-position: center center;
 }
 
+/* line 155, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .scroll-to-top {
   display: inline-block;
   width: 45px;
   height: 45px;
-  background: #4DA1FF;
+  background: #ff8257;
   position: fixed;
   bottom: 40px;
   right: 40px;
   z-index: 99;
   text-align: center;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
   display: none;
   border-radius: 50%;
   transition: all .4s ease;
 }
+
+/* line 170, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .scroll-to-top:hover {
   background-color: #9364D4;
 }
+
+/* line 174, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_common.scss */
 .scroll-to-top i {
   color: #fff;
   font-size: 18px;
@@ -202,6 +238,7 @@ hr.style-one {
 /*
 * 3. header styles
 */
+/* line 2, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation {
   background-color: transparent;
   margin-bottom: 0;
@@ -211,51 +248,72 @@ hr.style-one {
   position: relative;
   background-color: transparent;
 }
+
+/* line 11, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation .container {
   background: transparent;
   position: relative;
   display: block;
 }
+
+/* line 16, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation .container .logo-box {
   float: left;
   position: absolute;
   top: 50%;
   left: 15px;
   -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+/* line 26, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation .container .navbar-brand {
   height: auto;
   margin: 0;
 }
+
+/* line 31, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation .container .menu-toggler {
   display: none;
 }
+
+/* line 35, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation .container .right-side-box {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 15px;
 }
+
+/* line 45, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation .main-navigation {
   float: none;
   text-align: center;
 }
+
 @media (min-width: 1200px) {
+  /* line 45, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
   .header-navigation .main-navigation {
     display: block !important;
   }
 }
 
+/* line 55, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation ul.navigation-box {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
+/* line 60, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation ul.navigation-box li a .sub-nav-toggler {
   display: none;
 }
+
+/* line 64, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation ul.navigation-box > li {
   position: relative;
   padding: 44px 0;
@@ -264,27 +322,39 @@ hr.style-one {
   /* Second Level Menu */
   /* Thrid Level Menu */
 }
+
+/* line 70, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation ul.navigation-box > li + li {
   margin-left: 45px;
 }
+
+/* line 75, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation ul.navigation-box > li:first-child {
   padding-left: 0;
 }
+
+/* line 79, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation ul.navigation-box > li:last-child {
   padding-right: 0;
 }
+
+/* line 83, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation ul.navigation-box > li > a {
   font-weight: 500;
   font-size: 18px;
   color: #666E82;
   padding: 0;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
   position: relative;
 }
-.header-navigation ul.navigation-box > li.current > a, .header-navigation ul.navigation-box > li:hover > a {
-  color: #4DA1FF;
+
+/* line 92, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
+.header-navigation ul.navigation-box > li.current > a,
+.header-navigation ul.navigation-box > li:hover > a {
+  color: #FF8257;
 }
+
+/* line 32, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > .sub-menu {
   position: absolute;
   top: 100%;
@@ -300,34 +370,42 @@ hr.style-one {
   opacity: 0;
   border-radius: 0px;
   visibility: hidden;
-  -webkit-transition: opacity .4s ease, visibility .4s ease;
   transition: opacity .4s ease, visibility .4s ease;
-  -webkit-box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
 }
+
 @media (min-width: 1200px) {
+  /* line 32, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
   .header-navigation ul.navigation-box > li > .sub-menu {
     display: block !important;
   }
 }
+
+/* line 54, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > .sub-menu.right-align {
   left: auto;
   right: 0;
 }
+
+/* line 59, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > .sub-menu.center-align {
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
+
+/* line 65, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > .sub-menu > li {
   display: block;
   position: relative;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 72, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > .sub-menu > li + li {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+/* line 76, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > .sub-menu > li > a {
   font-size: 15px;
   color: #fff;
@@ -337,26 +415,33 @@ hr.style-one {
   line-height: 26px;
   white-space: nowrap;
   position: relative;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 89, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > .sub-menu > li:hover > a {
   color: #fff;
-  background: #4DA1FF;
+  background: #ff8257;
 }
+
+/* line 101, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation ul.navigation-box > li:hover:before {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-  -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform: scale(1, 1);
+  transform-origin: left bottom;
 }
+
+/* line 100, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li:hover > .sub-menu {
   opacity: 1;
   visibility: visible;
 }
+
+/* line 110, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation ul.navigation-box > li > ul > li {
   /* no more nested showen */
 }
+
+/* line 32, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > ul > li > .sub-menu {
   position: absolute;
   top: 0%;
@@ -372,34 +457,42 @@ hr.style-one {
   opacity: 0;
   border-radius: 0px;
   visibility: hidden;
-  -webkit-transition: opacity .4s ease, visibility .4s ease;
   transition: opacity .4s ease, visibility .4s ease;
-  -webkit-box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
 }
+
 @media (min-width: 1200px) {
+  /* line 32, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
   .header-navigation ul.navigation-box > li > ul > li > .sub-menu {
     display: block !important;
   }
 }
+
+/* line 54, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > ul > li > .sub-menu.right-align {
   left: auto;
   right: 100%;
 }
+
+/* line 59, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > ul > li > .sub-menu.center-align {
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
+
+/* line 65, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > ul > li > .sub-menu > li {
   display: block;
   position: relative;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 72, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > ul > li > .sub-menu > li + li {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+/* line 76, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > ul > li > .sub-menu > li > a {
   font-size: 15px;
   color: #fff;
@@ -409,21 +502,27 @@ hr.style-one {
   line-height: 26px;
   white-space: nowrap;
   position: relative;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 89, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > ul > li > .sub-menu > li:hover > a {
   color: #fff;
-  background: #4DA1FF;
+  background: #ff8257;
 }
+
+/* line 100, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .header-navigation ul.navigation-box > li > ul > li:hover > .sub-menu {
   opacity: 1;
   visibility: visible;
 }
+
+/* line 118, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-navigation ul.navigation-box > li > ul > li ul {
   display: none;
 }
 
+/* line 128, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one {
   position: absolute;
   top: 0;
@@ -431,26 +530,29 @@ hr.style-one {
   width: 100%;
   z-index: 99;
 }
+
+/* line 134, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one__btn {
   display: inline-block;
   vertical-align: middle;
-  color: #4DA1FF;
+  color: #FF8257;
   font-size: 16px;
   font-weight: 600;
   line-height: 1em;
   padding: 19px 49px;
   border-radius: 27px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(212, 212, 212, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(212, 212, 212, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(212, 212, 212, 0.3);
 }
+
+/* line 145, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one__btn:hover {
-  background-color: #4DA1FF;
+  background-color: #FF8257;
   color: #fff;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
 }
+
+/* line 154, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one .header-navigation.stricky-fixed {
   position: fixed;
   top: 0;
@@ -458,18 +560,22 @@ hr.style-one {
   width: 100%;
   z-index: 999;
   background-color: #fff;
-  -webkit-box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.06);
-          box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.06);
 }
+
+/* line 162, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one .header-navigation.stricky-fixed ul.navigation-box > li {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
+/* line 171, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one__home-two .header-navigation ul.navigation-box > li > a {
   color: #fff;
   position: relative;
 }
+
+/* line 174, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one__home-two .header-navigation ul.navigation-box > li > a:before {
   content: '';
   width: 100%;
@@ -478,27 +584,25 @@ hr.style-one {
   position: absolute;
   bottom: 0;
   left: 0;
-  -webkit-transition: -webkit-transform .4s ease;
-  transition: -webkit-transform .4s ease;
   transition: transform .4s ease;
-  transition: transform .4s ease, -webkit-transform .4s ease;
-  -webkit-transform: scale(0, 1);
-          transform: scale(0, 1);
-  -webkit-transform-origin: right center;
-          transform-origin: right center;
+  transform: scale(0, 1);
+  transform-origin: right center;
 }
+
+/* line 188, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one__home-two .header-navigation ul.navigation-box > li.current > a:before, .header-one__home-two .header-navigation ul.navigation-box > li:hover > a:before {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-  -webkit-transform-origin: left center;
-          transform-origin: left center;
+  transform: scale(1, 1);
+  transform-origin: left center;
 }
+
+/* line 193, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one__home-two .header-one__btn {
   color: #fff;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
-  background-color: #4DA1FF;
+  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
+  background-color: #ff8257;
 }
+
+/* line 198, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_header.scss */
 .header-one__home-two .header-navigation.stricky-fixed {
   background-color: #2e3d62;
 }
@@ -506,6 +610,7 @@ hr.style-one {
 /*
 * 4. banner styles
 */
+/* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one {
   background: transparent url(../images/banner-bg-1-1.png) right top no-repeat;
   background-size: cover;
@@ -513,57 +618,73 @@ hr.style-one {
   padding-bottom: 147px;
   position: relative;
 }
+
+/* line 11, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one [class*=bubble-] {
   position: absolute;
-  -webkit-animation-name: bubbleMover;
-          animation-name: bubbleMover;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transition: all .4s ease;
+  animation-name: bubbleMover;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   transition: all .4s ease;
-  -webkit-perspective: 400px;
-          perspective: 400px;
+  perspective: 400px;
 }
+
+/* line 21, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one .bubble-1 {
   top: 15%;
   left: 13%;
 }
+
+/* line 26, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one .bubble-2 {
   top: 25%;
   left: 35%;
 }
+
+/* line 31, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one .bubble-3 {
   top: 60%;
   left: 15%;
 }
+
+/* line 36, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one .bubble-4 {
   bottom: 10%;
   left: 45%;
 }
+
+/* line 41, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one .bubble-5 {
   top: 10%;
   right: 15%;
 }
+
+/* line 46, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one .bubble-6 {
   top: 30%;
   right: 40%;
 }
+
+/* line 51, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one__moc {
   position: absolute;
   top: 245px;
   right: 0;
 }
+
+/* line 57, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one .block-title {
   margin-bottom: 35px;
 }
+
+/* line 60, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one .block-title__text {
   font-size: 60px;
   line-height: 70px;
 }
+
+/* line 65, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one__text {
   margin: 0;
   font-size: 16px;
@@ -571,49 +692,63 @@ hr.style-one {
   color: #666E82;
   margin-bottom: 50px;
 }
+
+/* line 73, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one__btn {
   display: inline-block;
   vertical-align: middle;
   border-radius: 32px;
   text-align: center;
-  background-color: #4DA1FF;
+  background-color: #FF8257;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
   padding: 15px 59.5px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
 }
+
+/* line 86, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one__btn:hover {
   background-color: #2e3d62;
   color: #fff;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
 }
 
+/* line 95, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one__home-two {
   background-image: url(../images/banner-bg-1-2.jpg);
 }
+
+/* line 97, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one__home-two .block-title__text {
   color: #fff;
 }
+
+/* line 100, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one__home-two .block-title__text span:before {
   background-color: #fff;
   opacity: .1;
 }
+
+/* line 105, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one__home-two .banner-one__text {
   color: #fff;
 }
+
+/* line 108, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one__home-two .banner-one__btn {
   background-color: #fff;
   color: #2E3D62;
 }
+
+/* line 111, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one__home-two .banner-one__btn:hover {
   background-color: #2E3D62;
   color: #fff;
 }
+
+/* line 116, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_banner.scss */
 .banner-one__home-two .banner-one__moc {
   top: auto;
   bottom: 0;
@@ -622,135 +757,131 @@ hr.style-one {
 /*
 * 5. footer styles
 */
+/* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer {
   position: relative;
 }
+
+/* line 4, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer [class*=bubble-] {
   position: absolute;
-  -webkit-animation-name: bubbleMover;
-          animation-name: bubbleMover;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transition: all .4s ease;
+  animation-name: bubbleMover;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   transition: all .4s ease;
-  -webkit-perspective: 400px;
-          perspective: 400px;
+  perspective: 400px;
 }
+
+/* line 14, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer .bubble-1 {
   top: 15%;
   left: 13%;
 }
+
+/* line 19, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer .bubble-2 {
   top: 15%;
   right: 20%;
 }
+
+/* line 24, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer .bubble-3 {
   bottom: 20%;
   left: 10%;
 }
+
+/* line 29, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer .bubble-4 {
   bottom: 15%;
   right: 13%;
 }
 
-@-webkit-keyframes bubbleMover {
+@keyframes bubbleMover {
   0% {
-    -webkit-transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-            transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
+    transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
   }
   30% {
-    -webkit-transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-            transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
+    transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
   }
   60% {
-    -webkit-transform: rotate3d(1, 0, 0, 15deg) translateY(20px) translateX(20px);
-            transform: rotate3d(1, 0, 0, 15deg) translateY(20px) translateX(20px);
+    transform: rotate3d(1, 0, 0, 15deg) translateY(20px) translateX(20px);
   }
   80% {
-    -webkit-transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-            transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
+    transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
   }
   100% {
-    -webkit-transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-            transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
+    transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
   }
 }
 
-@keyframes bubbleMover {
-  0% {
-    -webkit-transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-            transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-  }
-  30% {
-    -webkit-transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-            transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-  }
-  60% {
-    -webkit-transform: rotate3d(1, 0, 0, 15deg) translateY(20px) translateX(20px);
-            transform: rotate3d(1, 0, 0, 15deg) translateY(20px) translateX(20px);
-  }
-  80% {
-    -webkit-transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-            transform: rotate3d(0, 0, 1, 20deg) translateY(10px) translateX(10px);
-  }
-  100% {
-    -webkit-transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-            transform: rotate3d(0, 1, 0, 15deg) translateY(0px) translateX(0px);
-  }
-}
+/* line 57, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer__main-footer {
   padding-bottom: 120px;
 }
 
+/* line 61, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer__bottom-footer {
   background-color: #FAFAFA;
   padding: 44px 0;
 }
+
+/* line 65, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer__bottom-footer p {
   margin: 0;
   color: #666E82;
   font-size: 16px;
 }
+
+/* line 70, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer__bottom-footer p a {
-  color: #4DA1FF;
-  -webkit-transition: all .4s ease;
+  color: #FF8257;
   transition: all .4s ease;
 }
+
+/* line 74, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer__bottom-footer p a:hover {
   color: #9364D4;
 }
 
+/* line 82, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget p {
   margin: 0;
   color: #666E82;
   font-size: 15px;
   line-height: 26px;
 }
+
+/* line 88, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget p + p {
   margin-top: 16px;
 }
+
+/* line 93, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget .social-block {
   margin-top: -20px;
 }
+
+/* line 96, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget .social-block a {
   display: inline-block;
   vertical-align: middle;
   color: #666E82;
   font-size: 22px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 103, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget .social-block a + a {
   margin-left: 22px;
 }
+
+/* line 107, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget .social-block a:hover {
-  color: #4DA1FF;
+  color: #FF8257;
 }
 
+/* line 114, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget__footer-logo {
   display: inline-block;
   vertical-align: middle;
@@ -758,6 +889,7 @@ hr.style-one {
   margin-bottom: 28px;
 }
 
+/* line 121, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget__title {
   margin: 0;
   color: #2E3D62;
@@ -767,53 +899,64 @@ hr.style-one {
   margin-bottom: 35px;
 }
 
+/* line 130, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget__link-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
+/* line 135, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget__link-list li {
   line-height: 1em;
 }
+
+/* line 138, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget__link-list li + li {
   margin-top: 24px;
 }
+
+/* line 142, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget__link-list li a {
   color: #666E82;
   font-size: 15px;
   display: inline-block;
   position: relative;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 149, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget__link-list li a:before {
   content: '\f101';
   font-family: 'FontAwesome';
-  color: #4DA1FF;
+  color: #FF8257;
   font-size: 14px;
   position: absolute;
   top: 50%;
   left: 0;
-  -webkit-transform: translateY(-50%) translateX(-15px);
-          transform: translateY(-50%) translateX(-15px);
+  transform: translateY(-50%) translateX(-15px);
   opacity: 0;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 162, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget__link-list li a:hover {
   color: #9364D4;
-  -webkit-transform: translateX(20px);
-          transform: translateX(20px);
+  transform: translateX(20px);
 }
+
+/* line 166, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .footer-widget__link-list li a:hover:before {
   opacity: 1;
 }
 
+/* line 174, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer__subscribe {
   padding-bottom: 125px;
   padding-top: 110px;
 }
 
+/* line 179, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer__subscribe-form {
   width: 100%;
   max-width: 685px;
@@ -827,6 +970,8 @@ hr.style-one {
   position: relative;
   overflow: hidden;
 }
+
+/* line 192, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer__subscribe-form input {
   border: none;
   outline: none;
@@ -840,41 +985,51 @@ hr.style-one {
   font-size: 16px;
   padding-left: 60px;
 }
+
+/* line 8, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .site-footer__subscribe-form input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #666E82;
 }
+
+/* line 13, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .site-footer__subscribe-form input::-moz-placeholder {
   /* Firefox 19+ */
   color: #666E82;
 }
+
+/* line 18, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .site-footer__subscribe-form input:-ms-input-placeholder {
   /* IE 10+ */
   color: #666E82;
 }
+
+/* line 23, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .site-footer__subscribe-form input:-moz-placeholder {
   /* Firefox 18- */
   color: #666E82;
 }
+
+/* line 210, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer__subscribe-form button[type=submit] {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #4DA1FF;
+  background-color: #FF8257;
   width: 211px;
   height: 64px;
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   right: 10px;
   border-radius: 32px;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 227, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_footer.scss */
 .site-footer__subscribe-form button[type=submit]:hover {
   background-color: #9364D4;
 }
@@ -882,6 +1037,7 @@ hr.style-one {
 /*
 * 6. blog styles
 */
+/* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one {
   padding-top: 190px;
   padding-bottom: 90px;
@@ -889,13 +1045,14 @@ hr.style-one {
   background-size: cover;
 }
 
+/* line 9, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__single {
   border-radius: 4px;
-  -webkit-box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
-          box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
+  box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
   margin-bottom: 30px;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__single-inner-block {
   border-radius: 4px;
   background-color: white;
@@ -905,9 +1062,10 @@ hr.style-one {
   padding-bottom: 55px;
   padding-left: 60px;
   padding-right: 60px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 26, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__single-inner-block:before, .blog-one__single-inner-block:after {
   content: '';
   width: 191px;
@@ -916,22 +1074,24 @@ hr.style-one {
   background-color: #fff;
   opacity: .1;
   position: absolute;
-  -webkit-transition: all .4s ease .2s;
   transition: all .4s ease .2s;
 }
+
+/* line 38, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__single-inner-block:before {
   top: 0;
   right: 0;
-  -webkit-transform: translate(60%, -60%);
-          transform: translate(60%, -60%);
+  transform: translate(60%, -60%);
 }
+
+/* line 44, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__single-inner-block:after {
   bottom: 0;
   left: 0;
-  -webkit-transform: translate(-60%, 60%);
-          transform: translate(-60%, 60%);
+  transform: translate(-60%, 60%);
 }
 
+/* line 53, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__date {
   position: relative;
   z-index: 10;
@@ -944,10 +1104,10 @@ hr.style-one {
   font-size: 12px;
   font-weight: 600;
   padding: 0 24.5px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 
+/* line 68, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__author {
   position: relative;
   z-index: 10;
@@ -958,10 +1118,10 @@ hr.style-one {
   font-weight: 600;
   display: inline-block;
   line-height: 1em;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 
+/* line 81, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__title {
   position: relative;
   z-index: 10;
@@ -971,12 +1131,14 @@ hr.style-one {
   line-height: 34px;
   margin-bottom: 35px;
 }
+
+/* line 90, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__title a {
   color: #2E3D62;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 
+/* line 96, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__text {
   position: relative;
   z-index: 10;
@@ -985,10 +1147,10 @@ hr.style-one {
   font-size: 16px;
   line-height: 34px;
   margin-bottom: 20px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 
+/* line 107, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__link {
   position: relative;
   z-index: 10;
@@ -996,51 +1158,65 @@ hr.style-one {
   vertical-align: middle;
   font-size: 32px;
   color: #BCBFC7;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  -webkit-transition: all .4s ease;
+  transform: rotate(180deg);
   transition: all .4s ease;
 }
 
+/* line 118, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__single-inner-block:hover {
   background-color: #9364D4;
 }
+
+/* line 121, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
   color: #9364D4;
 }
+
+/* line 126, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one__single-inner-block:hover .blog-one__text,
 .blog-one__single-inner-block:hover .blog-one__link,
 .blog-one__single-inner-block:hover .blog-one__author {
   color: #fff;
 }
+
+/* line 133, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__single-inner-block:hover:before {
   top: 0;
   right: 0;
-  -webkit-transform: translate(30%, -30%);
-          transform: translate(30%, -30%);
+  transform: translate(30%, -30%);
 }
+
+/* line 139, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__single-inner-block:hover:after {
   bottom: 0;
   left: 0;
-  -webkit-transform: translate(-30%, 30%);
-          transform: translate(-30%, 30%);
+  transform: translate(-30%, 30%);
 }
 
+/* line 148, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(2) .blog-one__date {
   background-color: #EF4059;
 }
+
+/* line 152, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(2) .blog-one__author {
   color: #EF4059;
 }
+
+/* line 156, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover {
   background-color: #EF4059;
 }
+
+/* line 159, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
   color: #EF4059;
 }
+
+/* line 164, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover .blog-one__text,
 .blog-one [class*=col-]:nth-child(2) .blog-one__single-inner-block:hover .blog-one__link,
@@ -1048,19 +1224,28 @@ hr.style-one {
   color: #fff;
 }
 
+/* line 174, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(3) .blog-one__date {
   background-color: #5dd8d3;
 }
+
+/* line 178, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(3) .blog-one__author {
   color: #5dd8d3;
 }
+
+/* line 182, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(3) .blog-one__single-inner-block:hover {
   background-color: #5dd8d3;
 }
+
+/* line 185, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(3) .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
   color: #5dd8d3;
 }
+
+/* line 190, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(3) .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one [class*=col-]:nth-child(3) .blog-one__single-inner-block:hover .blog-one__text,
 .blog-one [class*=col-]:nth-child(3) .blog-one__single-inner-block:hover .blog-one__link,
@@ -1068,19 +1253,28 @@ hr.style-one {
   color: #fff;
 }
 
+/* line 200, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(4) .blog-one__date {
   background-color: #7E9AE0;
 }
+
+/* line 204, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(4) .blog-one__author {
   color: #7E9AE0;
 }
+
+/* line 208, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(4) .blog-one__single-inner-block:hover {
   background-color: #7E9AE0;
 }
+
+/* line 211, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(4) .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
   color: #7E9AE0;
 }
+
+/* line 216, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(4) .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one [class*=col-]:nth-child(4) .blog-one__single-inner-block:hover .blog-one__text,
 .blog-one [class*=col-]:nth-child(4) .blog-one__single-inner-block:hover .blog-one__link,
@@ -1088,19 +1282,28 @@ hr.style-one {
   color: #fff;
 }
 
+/* line 226, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(5) .blog-one__date {
   background-color: #ED539B;
 }
+
+/* line 230, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(5) .blog-one__author {
   color: #ED539B;
 }
+
+/* line 234, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(5) .blog-one__single-inner-block:hover {
   background-color: #ED539B;
 }
+
+/* line 237, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(5) .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
   color: #ED539B;
 }
+
+/* line 242, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(5) .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one [class*=col-]:nth-child(5) .blog-one__single-inner-block:hover .blog-one__text,
 .blog-one [class*=col-]:nth-child(5) .blog-one__single-inner-block:hover .blog-one__link,
@@ -1108,19 +1311,28 @@ hr.style-one {
   color: #fff;
 }
 
+/* line 252, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(6) .blog-one__date {
   background-color: #FD8257;
 }
+
+/* line 256, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(6) .blog-one__author {
   color: #FD8257;
 }
+
+/* line 260, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(6) .blog-one__single-inner-block:hover {
   background-color: #FD8257;
 }
+
+/* line 263, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(6) .blog-one__single-inner-block:hover .blog-one__date {
   background-color: #fff;
   color: #FD8257;
 }
+
+/* line 268, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one [class*=col-]:nth-child(6) .blog-one__single-inner-block:hover .blog-one__title a,
 .blog-one [class*=col-]:nth-child(6) .blog-one__single-inner-block:hover .blog-one__text,
 .blog-one [class*=col-]:nth-child(6) .blog-one__single-inner-block:hover .blog-one__link,
@@ -1128,6 +1340,7 @@ hr.style-one {
   color: #fff;
 }
 
+/* line 277, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-one__blog-page {
   background-color: #fff;
   background-image: none;
@@ -1135,10 +1348,13 @@ hr.style-one {
   border-bottom: 1px solid #EAEAEA;
 }
 
+/* line 285, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-post-pagination {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+/* line 289, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-post-pagination a {
   display: inline-block;
   vertical-align: middle;
@@ -1150,38 +1366,52 @@ hr.style-one {
   text-align: center;
   font-size: 18px;
   color: #2e3d62;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
   font-weight: 600;
 }
+
+/* line 303, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-post-pagination a.prev, .blog-post-pagination a.next {
   background: #2e3d62;
   color: #fff;
   font-size: 14px;
 }
+
+/* line 310, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-post-pagination a.active {
   cursor: auto;
 }
+
+/* line 314, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-post-pagination a.active, .blog-post-pagination a:hover {
-  background: #4DA1FF;
+  background: #ff8257;
   color: #2e3d62;
 }
+
+/* line 320, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-post-pagination a + a {
   margin-left: 10px;
 }
 
+/* line 327, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details {
   padding: 120px 0;
   border-bottom: 1px solid #EAEAEA;
 }
+
+/* line 331, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__image {
   border-radius: 4px;
   overflow: hidden;
   position: relative;
 }
+
+/* line 336, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__image > img {
   width: 100%;
 }
+
+/* line 341, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__date {
   background-color: #ef4059;
   display: inline-block;
@@ -1198,9 +1428,13 @@ hr.style-one {
   top: 0;
   left: 0;
 }
+
+/* line 358, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__meta {
   margin-top: 15px;
 }
+
+/* line 360, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__meta-link {
   position: relative;
   z-index: 10;
@@ -1211,15 +1445,18 @@ hr.style-one {
   font-weight: 600;
   display: inline-block;
   line-height: 1em;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 373, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__meta-sep {
   display: inline-block;
   vertical-align: middle;
   margin-left: 12px;
   margin-right: 14px;
 }
+
+/* line 381, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__title {
   margin: 0;
   font-size: 30px;
@@ -1227,15 +1464,21 @@ hr.style-one {
   color: #2E3D62;
   margin-bottom: 40px;
 }
+
+/* line 390, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__text {
   margin: 0;
   font-size: 16px;
   line-height: 34px;
   color: #666E82;
 }
+
+/* line 397, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__text + .blog-details__text {
   margin-top: 35px;
 }
+
+/* line 401, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__content-title {
   margin: 0;
   color: #2E3D62;
@@ -1243,81 +1486,115 @@ hr.style-one {
   font-weight: 600;
   margin-bottom: 40px;
 }
+
+/* line 409, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__author {
   border-radius: 4px;
   background-color: white;
-  -webkit-box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
-          box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
+  box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
   padding: 60px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
+/* line 417, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__author-image, .blog-details__author-content {
   display: table-cell;
   vertical-align: top;
 }
+
+/* line 423, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__author-image {
   width: 169px;
   border-radius: 4px;
   overflow: hidden;
 }
+
+/* line 428, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__author-image > img {
   width: 100%;
 }
+
+/* line 433, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__author-content {
   padding-left: 40px;
 }
+
+/* line 435, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__author-content h3, .blog-details__author-content p {
   margin: 0;
 }
+
+/* line 439, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__author-content h3 {
   color: #2e3d62;
   font-size: 20px;
   margin-bottom: 30px;
   font-weight: 600;
 }
+
+/* line 445, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .blog-details__author-content p {
   font-size: 16px;
   line-height: 34px;
   color: #666E82;
 }
 
+/* line 454, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one {
   margin-bottom: 60px;
 }
+
+/* line 456, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__single {
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 50px;
 }
+
+/* line 460, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__single + .comment-one__single {
   margin-top: 60px;
 }
+
+/* line 463, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__image, .comment-one__content {
   display: table-cell;
   vertical-align: top;
 }
+
+/* line 467, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__image {
   width: 90px;
 }
+
+/* line 469, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__image .inner-block {
   width: 100%;
   border-radius: 50%;
   overflow: hidden;
 }
+
+/* line 473, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__image .inner-block > img {
   width: 100%;
 }
+
+/* line 478, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__content {
   padding-left: 40px;
 }
+
+/* line 481, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__author {
   margin: 0;
   font-size: 20px;
   font-weight: 600;
   color: #2e3d62;
 }
+
+/* line 487, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__date {
-  color: #4DA1FF;
+  color: #FF8257;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
@@ -1327,40 +1604,50 @@ hr.style-one {
   margin-top: 15px;
   margin-bottom: 25px;
 }
+
+/* line 498, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__date-sep {
   display: inline-block;
   vertical-align: middle;
   margin-left: 12px;
   margin-right: 12px;
 }
+
+/* line 504, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__text {
   color: #666E82;
   font-size: 16px;
   line-height: 34px;
   margin: 0;
 }
+
+/* line 510, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__reply {
   display: inline-block;
   vertical-align: middle;
   border-radius: 22px;
-  background-color: #4DA1FF;
+  background-color: #FF8257;
   text-align: center;
   color: #fff;
   font-weight: 600;
   font-size: 14px;
   padding: 5px 30px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 521, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__reply:hover {
   background-color: #2e3d62;
   color: #fff;
 }
+
+/* line 527, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .comment-one__top-left, .comment-one__top-right {
   display: table-cell;
   vertical-align: top;
 }
 
+/* line 535, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .reply-form input, .reply-form textarea {
   border: none;
   outline: none;
@@ -1374,42 +1661,55 @@ hr.style-one {
   padding-left: 30px;
   margin-bottom: 30px;
 }
+
+/* line 8, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .reply-form input::-webkit-input-placeholder, .reply-form textarea::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #666E82;
 }
+
+/* line 13, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .reply-form input::-moz-placeholder, .reply-form textarea::-moz-placeholder {
   /* Firefox 19+ */
   color: #666E82;
 }
+
+/* line 18, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .reply-form input:-ms-input-placeholder, .reply-form textarea:-ms-input-placeholder {
   /* IE 10+ */
   color: #666E82;
 }
+
+/* line 23, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .reply-form input:-moz-placeholder, .reply-form textarea:-moz-placeholder {
   /* Firefox 18- */
   color: #666E82;
 }
+
+/* line 551, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .reply-form textarea {
   height: 243px;
   padding-top: 20px;
 }
+
+/* line 555, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .reply-form__btn {
   display: inline-block;
   vertical-align: middle;
   border: none;
   outline: none !important;
   cursor: pointer;
-  background-color: #4DA1FF;
+  background-color: #ff8257;
   border-radius: 33.5px;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
   text-align: center;
   padding: 15px 60px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 569, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_blog.scss */
 .reply-form__btn:hover {
   background-color: #2e3d62;
 }
@@ -1417,76 +1717,74 @@ hr.style-one {
 /*
 * 7. fun fact styles
 */
+/* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one {
   position: relative;
   padding-top: 110px;
   padding-bottom: 120px;
 }
+
+/* line 6, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one [class*=bubble-] {
   position: absolute;
-  -webkit-animation-name: bubbleMover;
-          animation-name: bubbleMover;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transition: all .4s ease;
+  animation-name: bubbleMover;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   transition: all .4s ease;
-  -webkit-perspective: 400px;
-          perspective: 400px;
+  perspective: 400px;
 }
+
+/* line 16, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one .bubble-1 {
   top: 25%;
   left: 23%;
 }
+
+/* line 21, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one .bubble-2 {
   top: 15%;
   right: 30%;
 }
+
+/* line 26, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one .bubble-3 {
   bottom: 20%;
   left: 10%;
 }
+
+/* line 31, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one .bubble-4 {
   bottom: 15%;
   right: 13%;
 }
+
+/* line 36, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__box-wrapper {
+  display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
+
+/* line 46, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__single .inner-block {
   border-radius: 50%;
   background-color: white;
-  -webkit-box-shadow: 0px 25px 60px 0px rgba(46, 61, 98, 0.05);
-          box-shadow: 0px 25px 60px 0px rgba(46, 61, 98, 0.05);
+  box-shadow: 0px 25px 60px 0px rgba(46, 61, 98, 0.05);
   width: 220px;
   height: 220px;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
+
+/* line 60, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__single .inner-block:before {
   content: '';
   position: absolute;
@@ -1497,9 +1795,13 @@ hr.style-one {
   border: 1px solid #EF4059;
   border-radius: 50%;
 }
+
+/* line 74, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__single:nth-child(2n) {
   margin-top: 80px;
 }
+
+/* line 79, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__title {
   margin: 0;
   color: #EF4059;
@@ -1507,6 +1809,8 @@ hr.style-one {
   font-weight: 300;
   line-height: 1em;
 }
+
+/* line 87, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__text {
   margin: 0;
   font-size: 12px;
@@ -1517,72 +1821,91 @@ hr.style-one {
   letter-spacing: .2em;
   margin-top: 20px;
 }
+
+/* line 98, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__single:nth-child(2) .inner-block:before {
   border-color: #5DD8D3;
 }
+
+/* line 102, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__single:nth-child(2) .inner-block .fun-fact-one__title {
   color: #5DD8D3;
 }
+
+/* line 106, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__single:nth-child(3) .inner-block:before {
   border-color: #9364D4;
 }
+
+/* line 110, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__single:nth-child(3) .inner-block .fun-fact-one__title {
   color: #9364D4;
 }
+
+/* line 114, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__single:nth-child(4) .inner-block:before {
-  border-color: #4DA1FF;
+  border-color: #FF8257;
 }
+
+/* line 118, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_fun-fact.scss */
 .fun-fact-one__single:nth-child(4) .inner-block .fun-fact-one__title {
-  color: #4DA1FF;
+  color: #FF8257;
 }
 
 /*
 * 8. brand styles
 */
+/* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_brand.scss */
 .brand-style-one {
   position: relative;
 }
+
+/* line 3, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_brand.scss */
 .brand-style-one [class*=bubble-] {
   position: absolute;
-  -webkit-animation-name: bubbleMover;
-          animation-name: bubbleMover;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transition: all .4s ease;
+  animation-name: bubbleMover;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   transition: all .4s ease;
-  -webkit-perspective: 400px;
-          perspective: 400px;
+  perspective: 400px;
 }
+
+/* line 13, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_brand.scss */
 .brand-style-one .bubble-1 {
   top: 15%;
   left: 18%;
 }
+
+/* line 18, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_brand.scss */
 .brand-style-one .bubble-2 {
   top: 30%;
   right: 20%;
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_brand.scss */
 .brand-carousel-one {
   padding: 119.5px 0;
   padding-left: 45px;
   padding-right: 45px;
 }
+
+/* line 30, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_brand.scss */
 .brand-carousel-one .item img {
   width: auto;
   max-width: none;
   margin-left: auto;
   margin-right: auto;
   opacity: .3;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 38, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_brand.scss */
 .brand-carousel-one .item img:hover {
   opacity: .6;
 }
+
+/* line 44, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_brand.scss */
 .brand-carousel-one .owl-dots,
 .brand-carousel-one .owl-nav {
   display: none;
@@ -1591,6 +1914,7 @@ hr.style-one {
 /*
 * 9. testimonials styles
 */
+/* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one {
   background: transparent url(../images/testi-bg-1-1.png) center top no-repeat;
   padding-top: 530px;
@@ -1599,38 +1923,51 @@ hr.style-one {
   position: relative;
   margin-top: -380px;
 }
+
+/* line 11, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .block-title {
   margin-bottom: 45px;
 }
+
+/* line 16, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .single-testi-one p {
   margin: 0;
   color: #666E82;
   font-size: 22px;
   line-height: 46px;
 }
+
+/* line 23, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .single-testi-one h3 {
-  color: #4DA1FF;
+  color: #FF8257;
   font-weight: 600;
   font-size: 20px;
   margin: 0;
   margin-top: 40px;
 }
+
+/* line 32, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .bx-wrapper {
   border: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: transparent;
   margin-bottom: 0;
 }
+
+/* line 38, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .bx-wrapper ul.slider {
   padding: 0;
   margin: 0;
 }
+
+/* line 44, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .bx-wrapper .bx-controls-direction {
   position: absolute;
   bottom: -10px;
   right: 0;
 }
+
+/* line 50, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .bx-wrapper .bx-controls-direction a {
   text-indent: 0;
   background-image: none;
@@ -1640,187 +1977,162 @@ hr.style-one {
   opacity: .3;
   color: #666E82;
   z-index: 10;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 61, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .bx-wrapper .bx-controls-direction a:hover {
   opacity: 1;
-  color: #4DA1FF;
+  color: #FF8257;
 }
+
+/* line 67, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .bx-wrapper .bx-prev {
   left: 0px;
   margin-right: 25px;
 }
+
+/* line 72, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 .testimonials-style-one .bx-wrapper .bx-next {
   right: 0px;
 }
 
+/* line 77, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 #testimonials-slider-pager {
   width: 536px;
   height: 536px;
   position: relative;
   margin-top: -80px;
-  -webkit-animation-name: tesiMove;
-          animation-name: tesiMove;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transition: all .4s ease;
+  animation-name: tesiMove;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   transition: all .4s ease;
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
+  transform-origin: center center;
 }
-@-webkit-keyframes tesiMove {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  15% {
-    -webkit-transform: rotate(2deg);
-            transform: rotate(2deg);
-  }
-  33% {
-    -webkit-transform: rotate(4deg);
-            transform: rotate(4deg);
-  }
-  66% {
-    -webkit-transform: rotate(2deg);
-            transform: rotate(2deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-}
+
 @keyframes tesiMove {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   15% {
-    -webkit-transform: rotate(2deg);
-            transform: rotate(2deg);
+    transform: rotate(2deg);
   }
   33% {
-    -webkit-transform: rotate(4deg);
-            transform: rotate(4deg);
+    transform: rotate(4deg);
   }
   66% {
-    -webkit-transform: rotate(2deg);
-            transform: rotate(2deg);
+    transform: rotate(2deg);
   }
   100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
+
+/* line 111, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 #testimonials-slider-pager .testi-icon {
   position: absolute;
   top: 50%;
   left: 0;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
   width: 99px;
   height: 99px;
   border-radius: 50%;
-  background-color: #4DA1FF;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-color: #FF8257;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   z-index: 10;
 }
+
+/* line 125, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 #testimonials-slider-pager .testi-icon:after, #testimonials-slider-pager .testi-icon:before {
   width: 99px;
   height: 99px;
   border-radius: 50%;
-  background-color: #4DA1FF;
+  background-color: #FF8257;
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-animation-delay: .9s;
-          animation-delay: .9s;
+  transform: translate(-50%, -50%);
+  animation-delay: .9s;
   content: "";
   position: absolute;
-  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
-  -webkit-animation: ripple 3s infinite;
-          animation: ripple 3s infinite;
-  -webkit-transition: all .4s ease;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+  animation: ripple 3s infinite;
   transition: all .4s ease;
 }
+
+/* line 143, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 #testimonials-slider-pager .testi-icon:after {
-  -webkit-animation-delay: .6s;
-          animation-delay: .6s;
+  animation-delay: .6s;
 }
+
 @-webkit-keyframes ripple {
   70% {
-    -webkit-box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
-            box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
   }
   100% {
-    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
+
 @keyframes ripple {
   70% {
-    -webkit-box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
-            box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
   }
   100% {
-    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
+
+/* line 168, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 #testimonials-slider-pager .testi-icon img {
   position: relative;
   z-index: 11;
 }
+
+/* line 177, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 #testimonials-slider-pager .testimonials-slider-pager-one .pager-item {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%) scale(0);
-          transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(0);
   opacity: 0;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 185, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_testimonials.scss */
 #testimonials-slider-pager .testimonials-slider-pager-one .pager-item.active {
   opacity: 1;
-  -webkit-transform: translate(-50%, -50%) scale(1);
-          transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 /*
 * 10. inner-banner styles
 */
+/* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_inner-banner.scss */
 .inner-banner {
   background: #2e3d62 url(../images/inner-banner-bg-1-1.jpg) center center no-repeat;
   background-size: cover;
   padding-bottom: 120px;
   padding-top: 188px;
 }
+
+/* line 7, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_inner-banner.scss */
 .inner-banner__title {
   margin: 0;
   color: #fff;
   font-weight: 700;
   font-size: 46px;
 }
+
+/* line 13, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_inner-banner.scss */
 .inner-banner__title span {
   position: relative;
 }
+
+/* line 16, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_inner-banner.scss */
 .inner-banner__title span:before {
   content: '';
   background-color: white;
@@ -1832,37 +2144,30 @@ hr.style-one {
   left: 0;
   border-radius: 4px;
 }
+
+/* line 33, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_inner-banner.scss */
 .inner-banner .container {
+  display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+/* line 45, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_inner-banner.scss */
 .thm-breadcrumb {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   position: relative;
 }
+
+/* line 53, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_inner-banner.scss */
 .thm-breadcrumb:before {
   content: '';
   background-color: white;
@@ -1875,12 +2180,14 @@ hr.style-one {
   border-radius: 4px;
 }
 
+/* line 70, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_inner-banner.scss */
 .thm-breadcrumb__item a,
 .thm-breadcrumb__item span {
   font-size: 18px;
   color: #FCFBFE;
 }
 
+/* line 78, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_inner-banner.scss */
 .thm-breadcrumb__item + .thm-breadcrumb__item:before {
   content: '.';
   display: inline-block;
@@ -1894,25 +2201,31 @@ hr.style-one {
 /*
 * 11. pricing styles
 */
+/* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 .pricing-one {
   position: relative;
   z-index: 10;
   padding-top: 60px;
 }
+
+/* line 5, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 .pricing-one__single {
   padding-bottom: 50px;
   text-align: center;
   margin-bottom: 50px;
   border-radius: 4px;
   background-color: white;
-  -webkit-box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
-          box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
+  box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
   border-top: 5px solid #9364D4;
 }
+
+/* line 17, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 .pricing-one__top {
   border-bottom: 1px solid #E8E8E8;
   padding-top: 50px;
 }
+
+/* line 22, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 .pricing-one__title {
   margin: 0;
   color: #9364D4;
@@ -1920,6 +2233,8 @@ hr.style-one {
   font-weight: 300;
   line-height: 1em;
 }
+
+/* line 30, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 .pricing-one__pack {
   margin: 0;
   text-transform: uppercase;
@@ -1931,6 +2246,8 @@ hr.style-one {
   margin-bottom: 60px;
   color: #2E3D62;
 }
+
+/* line 42, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 .pricing-one__feature {
   margin: 0;
   padding: 0;
@@ -1938,14 +2255,20 @@ hr.style-one {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
+/* line 49, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 .pricing-one__feature-item {
   font-size: 16px;
   color: #666E82;
   line-height: 1em;
 }
+
+/* line 54, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 .pricing-one__feature-item + .pricing-one__feature-item {
   margin-top: 20px;
 }
+
+/* line 59, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 .pricing-one__btn {
   display: inline-block;
   vertical-align: middle;
@@ -1956,14 +2279,17 @@ hr.style-one {
   color: #666E82;
   font-size: 16px;
   font-weight: 600;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 71, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 .pricing-one__btn:hover {
   border-color: #9364D4;
   background-color: #9364D4;
   color: #fff;
 }
+
+/* line 78, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 .pricing-one__note {
   text-transform: uppercase;
   color: #666E82;
@@ -1973,23 +2299,33 @@ hr.style-one {
   margin-top: 25px;
 }
 
+/* line 89, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 [class*=col-]:nth-child(2) .pricing-one__single {
   border-top-color: #EE539B;
 }
+
+/* line 92, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 [class*=col-]:nth-child(2) .pricing-one__title {
   color: #EE539B;
 }
+
+/* line 95, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 [class*=col-]:nth-child(2) .pricing-one__btn:hover {
   background-color: #EE539B;
   border-color: #EE539B;
 }
 
+/* line 102, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 [class*=col-]:nth-child(3) .pricing-one__single {
   border-top-color: #FDDD6E;
 }
+
+/* line 105, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 [class*=col-]:nth-child(3) .pricing-one__title {
   color: #FDDD6E;
 }
+
+/* line 108, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_pricing.scss */
 [class*=col-]:nth-child(3) .pricing-one__btn:hover {
   background-color: #FDDD6E;
   border-color: #FDDD6E;
@@ -1998,27 +2334,47 @@ hr.style-one {
 /*
 * 12. cta styles
 */
+/* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one {
   background: transparent url(../images/cta-bg-1-1.png) center center no-repeat;
+}
+
+/* line 4, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-four {
+  background: transparent url(../images/cta-bg-1-3.png) center center no-repeat;
+}
+
+/* line 7, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one, .cta-four {
   background-size: cover;
   padding-top: 205px;
   padding-bottom: 195px;
 }
-.cta-one__image-wrap {
+
+/* line 13, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__image-wrap, .cta-four__image-wrap {
   padding-right: 70px;
 }
-.cta-one__image {
+
+/* line 17, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__image, .cta-four__image {
   overflow: hidden;
   border-radius: 4px;
 }
-.cta-one__image > img {
-  width: 50%;
+
+/* line 21, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__image > img, .cta-four__image > img {
+  width: 100%;
 }
-.cta-one__color-box {
+
+/* line 26, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__color-box, .cta-four__color-box {
   position: relative;
   min-height: 276px;
 }
-.cta-one__color-box:before {
+
+/* line 30, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__color-box:before, .cta-four__color-box:before {
   content: '';
   border-radius: 4px;
   background-color: #5dd8d3;
@@ -2026,7 +2382,9 @@ hr.style-one {
   height: 106px;
   position: absolute;
 }
-.cta-one__color-box:after {
+
+/* line 39, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__color-box:after, .cta-four__color-box:after {
   content: '';
   border-radius: 4px;
   background-color: #fddd6e;
@@ -2034,198 +2392,240 @@ hr.style-one {
   height: 66px;
   position: absolute;
 }
-.cta-one__color-box-2:before {
+
+/* line 50, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__color-box-2:before, .cta-four__color-box-2:before {
   top: 0;
   right: 0;
   width: 60px;
   height: 66px;
   background-color: #ef4059;
 }
-.cta-one__color-box-2:after {
+
+/* line 58, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__color-box-2:after, .cta-four__color-box-2:after {
   bottom: 30px;
   left: 30px;
   width: 100px;
   height: 106px;
   background-color: #9364d4;
 }
-.cta-one__color-box-1:before {
+
+/* line 68, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__color-box-1:before, .cta-four__color-box-1:before {
   top: 30px;
   right: 30px;
 }
-.cta-one__color-box-1:after {
+
+/* line 73, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__color-box-1:after, .cta-four__color-box-1:after {
   bottom: 0;
   left: 0;
 }
-.cta-one .block-title {
+
+/* line 79, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one .block-title, .cta-four .block-title {
   margin-bottom: 40px;
 }
-.cta-one__text {
+
+/* line 83, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__text, .cta-four__text {
   font-size: 20px;
   color: #666E82;
   line-height: 40px;
   margin: 0;
 }
-.cta-one__list {
+
+/* line 90, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__list, .cta-four__list {
   margin: 0;
   padding: 0;
   list-style: none;
   margin-top: 45px;
 }
-.cta-one__list-item {
+
+/* line 97, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__list-item, .cta-four__list-item {
   font-size: 18px;
   position: relative;
   color: #666E82;
   padding-left: 30px;
 }
-.cta-one__list-item i {
-  color: #4DA1FF;
+
+/* line 103, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__list-item i, .cta-four__list-item i {
+  color: #FF8257;
   position: absolute;
   top: 50%;
   left: 0;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
-.cta-one__list-item + .cta-one__list-item {
+
+/* line 112, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__list-item + .cta-one__list-item, .cta-four__list-item + .cta-one__list-item, .cta-one__list-item + .cta-four__list-item, .cta-four__list-item + .cta-four__list-item {
   margin-top: 5px;
 }
-.cta-one__btn {
+
+/* line 116, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__btn, .cta-four__btn {
   display: inline-block;
   vertical-align: middle;
   border-radius: 32px;
   text-align: center;
-  background-color: #4DA1FF;
+  background-color: #FF8257;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
   padding: 15px 59.5px;
   margin-top: 55px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
-}
-.cta-one__btn:hover {
-  background-color: #2e3d62;
-  color: #fff;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
 }
 
+/* line 130, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
+.cta-one__btn:hover, .cta-four__btn:hover {
+  background-color: #2e3d62;
+  color: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
+}
+
+/* line 139, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two {
   position: relative;
   padding-bottom: 120px;
 }
+
+/* line 145, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two [class*=bubble-] {
   position: absolute;
-  -webkit-animation-name: bubbleMover;
-          animation-name: bubbleMover;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transition: all .4s ease;
+  animation-name: bubbleMover;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   transition: all .4s ease;
-  -webkit-perspective: 400px;
-          perspective: 400px;
+  perspective: 400px;
 }
+
+/* line 155, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two .bubble-1 {
   top: 15%;
   left: 10%;
 }
+
+/* line 160, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two .bubble-2 {
   bottom: 15%;
   left: 40%;
 }
+
+/* line 165, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two .bubble-3 {
   top: 5%;
   right: 10%;
 }
+
+/* line 171, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two hr {
   margin: 0;
   border: none;
   border-top: 1px solid #EAEAEA;
   margin-bottom: 120px;
 }
+
+/* line 178, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two .block-title {
   margin-bottom: 50px;
 }
+
+/* line 182, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__moc {
   position: absolute;
   bottom: 70px;
   right: 0;
 }
+
 @media (max-width: 1440px) {
+  /* line 182, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
   .cta-two__moc {
-    -webkit-transform: scale(0.75);
-            transform: scale(0.75);
-    -webkit-transform-origin: right center;
-            transform-origin: right center;
+    transform: scale(0.75);
+    transform-origin: right center;
   }
 }
+
+/* line 192, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__text {
   margin: 0;
   color: #777B92;
   font-size: 18px;
   line-height: 32px;
 }
+
+/* line 199, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
+
+/* line 205, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-icon {
   font-size: 64px;
-  color: #4DA1FF;
+  color: #FF8257;
 }
+
+/* line 211, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-single:nth-child(2) .cta-two__feature-icon {
   color: #5DD8D3;
 }
+
+/* line 215, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-single:nth-child(3) .cta-two__feature-icon {
   color: #9364D4;
 }
+
+/* line 219, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-title {
   margin: 0;
   font-size: 20px;
   margin-top: 10px;
   font-weight: 600;
 }
+
+/* line 225, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-title a {
   color: #2E3D62;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 229, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-title a:hover {
-  color: #4DA1FF;
+  color: #ff8257;
 }
+
+/* line 238, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__btn {
   display: inline-block;
   vertical-align: middle;
   border-radius: 32px;
   text-align: center;
-  background-color: #4DA1FF;
+  background-color: #FF8257;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
   padding: 15px 59.5px;
   margin-top: 50px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
 }
+
+/* line 252, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__btn:hover {
   background-color: #2e3d62;
   color: #fff;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
 }
 
+/* line 261, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three {
   background: transparent url(../images/cta-bg-1-2.png) bottom center no-repeat;
   background-size: cover;
@@ -2233,104 +2633,124 @@ hr.style-one {
   padding-top: 382px;
   position: relative;
 }
+
+/* line 268, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three [class*=bubble-] {
   position: absolute;
-  -webkit-animation-name: bubbleMover;
-          animation-name: bubbleMover;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-transition: all .4s ease;
+  animation-name: bubbleMover;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   transition: all .4s ease;
-  -webkit-perspective: 400px;
-          perspective: 400px;
+  perspective: 400px;
 }
+
+/* line 278, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three .bubble-1 {
   top: 30%;
   left: 15%;
 }
+
+/* line 283, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three .bubble-2 {
   top: 30%;
   right: 10%;
 }
+
+/* line 288, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three .bubble-3 {
   bottom: 10%;
   left: 40%;
 }
+
+/* line 293, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three .container {
   position: relative;
 }
+
+/* line 297, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__moc {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%) translateX(-100px);
-          transform: translateY(-50%) translateX(-100px);
+  transform: translateY(-50%) translateX(-100px);
   left: 0;
 }
+
+/* line 304, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three .block-title {
   margin-bottom: 40px;
 }
+
+/* line 308, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__text {
   font-size: 20px;
   color: #666E82;
   line-height: 40px;
   margin: 0;
 }
+
+/* line 315, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__list {
   margin: 0;
   padding: 0;
   list-style: none;
   margin-top: 45px;
 }
+
+/* line 322, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__list-item {
   font-size: 18px;
   position: relative;
   color: #666E82;
   padding-left: 30px;
 }
+
+/* line 328, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__list-item i {
-  color: #4DA1FF;
+  color: #FF8257;
   position: absolute;
   top: 50%;
   left: 0;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+
+/* line 337, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__list-item + .cta-three__list-item {
   margin-top: 5px;
 }
+
+/* line 341, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__btn {
   display: inline-block;
   vertical-align: middle;
   border-radius: 32px;
   text-align: center;
-  background-color: #4DA1FF;
+  background-color: #FF8257;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
   padding: 15px 59.5px;
   margin-top: 55px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(255, 130, 87, 0.3);
 }
+
+/* line 355, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__btn:hover {
   background-color: #2e3d62;
   color: #fff;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
 }
 
 /*
 * 13. services styles
 */
+/* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 .service-one {
   padding-top: 120px;
 }
+
+/* line 3, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 .service-one__single {
   padding-left: 50px;
   padding-right: 50px;
@@ -2338,13 +2758,13 @@ hr.style-one {
   padding-bottom: 50px;
   border-radius: 4px;
   background-color: white;
-  -webkit-box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
-          box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
+  box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
   overflow: hidden;
   position: relative;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 15, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 .service-one__single:before, .service-one__single:after {
   content: '';
   width: 191px;
@@ -2353,27 +2773,31 @@ hr.style-one {
   background-color: #fff;
   opacity: .1;
   position: absolute;
-  -webkit-transition: all .4s ease .2s;
   transition: all .4s ease .2s;
 }
+
+/* line 27, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 .service-one__single:before {
   top: 0;
   right: 0;
-  -webkit-transform: translate(60%, -60%);
-          transform: translate(60%, -60%);
+  transform: translate(60%, -60%);
 }
+
+/* line 33, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 .service-one__single:after {
   bottom: 0;
   left: 0;
-  -webkit-transform: translate(-60%, 60%);
-          transform: translate(-60%, 60%);
+  transform: translate(-60%, 60%);
 }
+
+/* line 40, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 .service-one__icon {
   font-size: 60px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
   color: #5DD8D3;
 }
+
+/* line 46, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 .service-one__title {
   margin: 0;
   font-size: 20px;
@@ -2382,142 +2806,177 @@ hr.style-one {
   margin-top: 10px;
   margin-bottom: 40px;
 }
+
+/* line 54, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 .service-one__title a {
   color: #2E3D62;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 58, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 .service-one__title a:hover {
   color: #fff;
 }
+
+/* line 64, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 .service-one__text {
   color: #666E82;
   font-size: 16px;
   line-height: 34px;
   margin: 0;
   margin-bottom: 25px;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 73, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 .service-one__link {
   display: inline-block;
   vertical-align: middle;
   font-size: 32px;
   color: #BCBFC7;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  -webkit-transition: all .4s ease;
+  transform: rotate(180deg);
   transition: all .4s ease;
 }
 
+/* line 84, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(1) .service-one__icon {
   color: #5DD8D3;
 }
+
+/* line 88, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(1) .service-one__single:hover {
   background-color: #5DD8D3;
 }
+
+/* line 91, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(1) .service-one__single:hover .service-one__icon,
 [class*=col-]:nth-child(1) .service-one__single:hover .service-one__title a,
 [class*=col-]:nth-child(1) .service-one__single:hover .service-one__text,
 [class*=col-]:nth-child(1) .service-one__single:hover .service-one__link {
   color: #fff;
 }
+
+/* line 98, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(1) .service-one__single:hover:before {
   top: 0;
   right: 0;
-  -webkit-transform: translate(30%, -30%);
-          transform: translate(30%, -30%);
+  transform: translate(30%, -30%);
 }
+
+/* line 104, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(1) .service-one__single:hover:after {
   bottom: 0;
   left: 0;
-  -webkit-transform: translate(-30%, 30%);
-          transform: translate(-30%, 30%);
+  transform: translate(-30%, 30%);
 }
 
+/* line 114, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(2) .service-one__icon {
   color: #9364D4;
 }
+
+/* line 118, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(2) .service-one__single:hover {
   background-color: #9364D4;
 }
+
+/* line 121, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(2) .service-one__single:hover .service-one__icon,
 [class*=col-]:nth-child(2) .service-one__single:hover .service-one__title a,
 [class*=col-]:nth-child(2) .service-one__single:hover .service-one__text,
 [class*=col-]:nth-child(2) .service-one__single:hover .service-one__link {
   color: #fff;
 }
+
+/* line 128, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(2) .service-one__single:hover:before {
   top: 0;
   right: 0;
-  -webkit-transform: translate(30%, -30%);
-          transform: translate(30%, -30%);
+  transform: translate(30%, -30%);
 }
+
+/* line 134, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(2) .service-one__single:hover:after {
   bottom: 0;
   left: 0;
-  -webkit-transform: translate(-30%, 30%);
-          transform: translate(-30%, 30%);
+  transform: translate(-30%, 30%);
 }
 
+/* line 144, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(3) .service-one__icon {
   color: #EE539B;
 }
+
+/* line 148, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(3) .service-one__single:hover {
   background-color: #EE539B;
 }
+
+/* line 151, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(3) .service-one__single:hover .service-one__icon,
 [class*=col-]:nth-child(3) .service-one__single:hover .service-one__title a,
 [class*=col-]:nth-child(3) .service-one__single:hover .service-one__text,
 [class*=col-]:nth-child(3) .service-one__single:hover .service-one__link {
   color: #fff;
 }
+
+/* line 158, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(3) .service-one__single:hover:before {
   top: 0;
   right: 0;
-  -webkit-transform: translate(30%, -30%);
-          transform: translate(30%, -30%);
+  transform: translate(30%, -30%);
 }
+
+/* line 164, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(3) .service-one__single:hover:after {
   bottom: 0;
   left: 0;
-  -webkit-transform: translate(-30%, 30%);
-          transform: translate(-30%, 30%);
+  transform: translate(-30%, 30%);
 }
 
+/* line 174, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(4) .service-one__icon {
   color: #FDDD6E;
 }
+
+/* line 178, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(4) .service-one__single:hover {
   background-color: #FDDD6E;
 }
+
+/* line 181, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(4) .service-one__single:hover .service-one__icon,
 [class*=col-]:nth-child(4) .service-one__single:hover .service-one__title a,
 [class*=col-]:nth-child(4) .service-one__single:hover .service-one__text,
 [class*=col-]:nth-child(4) .service-one__single:hover .service-one__link {
   color: #fff;
 }
+
+/* line 188, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(4) .service-one__single:hover:before {
   top: 0;
   right: 0;
-  -webkit-transform: translate(30%, -30%);
-          transform: translate(30%, -30%);
+  transform: translate(30%, -30%);
 }
+
+/* line 194, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_services.scss */
 [class*=col-]:nth-child(4) .service-one__single:hover:after {
   bottom: 0;
   left: 0;
-  -webkit-transform: translate(-30%, 30%);
-          transform: translate(-30%, 30%);
+  transform: translate(-30%, 30%);
 }
 
 /*
 * 14. sidebar styles
 */
 @media (max-width: 991px) {
+  /* line 1, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
   .sidebar {
     margin-top: 50px;
   }
 }
+
+/* line 5, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__title {
   margin: 0;
   color: #2E3D62;
@@ -2525,120 +2984,161 @@ hr.style-one {
   font-weight: 600;
   margin-bottom: 30px;
 }
+
+/* line 13, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__single:not(.sidebar__search) {
   padding: 50px;
   border-radius: 4px;
   background-color: white;
-  -webkit-box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
-          box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
+  box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
 }
+
+/* line 20, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__single + .sidebar__single {
   margin-top: 30px;
 }
+
+/* line 25, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__post__single + .sidebar__post__single {
   margin-top: 30px;
 }
+
+/* line 29, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__post-image, .sidebar__post-content {
   display: table-cell;
   vertical-align: middle;
 }
+
+/* line 35, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__post-image {
   width: 60px;
 }
+
+/* line 38, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__post-image .inner-block {
   width: 100%;
   overflow: hidden;
   border-radius: 50%;
 }
+
+/* line 43, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__post-image .inner-block > img {
   width: 100%;
 }
+
+/* line 49, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__post-content {
   padding-left: 20px;
 }
+
+/* line 53, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__post-title {
   margin: 0;
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
 }
+
+/* line 59, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__post-title a {
   color: #666E82;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 63, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__post-title a:hover {
-  color: #4DA1FF;
+  color: #ff8257;
 }
+
+/* line 70, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__category-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
+/* line 75, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__category-list-item {
   line-height: 1em;
 }
+
+/* line 79, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__category-list-item a {
   color: #666E82;
   font-size: 16px;
   display: inline-block;
   position: relative;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 86, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__category-list-item a:before {
   content: '\f101';
   font-family: 'FontAwesome';
-  color: #4DA1FF;
+  color: #FF8257;
   font-size: 14px;
   position: absolute;
   top: 50%;
   left: 0;
-  -webkit-transform: translateY(-50%) translateX(-15px);
-          transform: translateY(-50%) translateX(-15px);
+  transform: translateY(-50%) translateX(-15px);
   opacity: 0;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 99, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__category-list-item a:hover {
   color: #9364D4;
-  -webkit-transform: translateX(20px);
-          transform: translateX(20px);
+  transform: translateX(20px);
 }
+
+/* line 103, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__category-list-item a:hover:before {
   opacity: 1;
 }
+
+/* line 110, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__category-list-item + .sidebar__category-list-item {
   margin-top: 27px;
 }
+
+/* line 115, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__tags-list {
   margin: 0;
   padding: 0;
   list-style: none;
   margin-top: -10px;
 }
+
+/* line 121, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__tags-list-item {
   display: inline-block;
   vertical-align: middle;
   line-height: 1em;
 }
+
+/* line 127, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__tags-list-item a {
   display: block;
   color: #666E82;
   font-size: 16px;
   line-height: 1em;
-  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+/* line 134, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__tags-list-item a:hover {
-  color: #4DA1FF;
+  color: #ff8257;
 }
+
+/* line 141, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__search-form {
   width: 100%;
   height: 84px;
   border-radius: 4px;
-  background-color: #4DA1FF;
+  background-color: #FF8257;
 }
+
+/* line 147, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_sidebar.scss */
 .sidebar__search-form input {
   width: 100%;
   height: 100%;
@@ -2649,19 +3149,29 @@ hr.style-one {
   padding-left: 50px;
   padding-right: 50px;
 }
+
+/* line 8, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .sidebar__search-form input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #fff;
 }
+
+/* line 13, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .sidebar__search-form input::-moz-placeholder {
   /* Firefox 19+ */
   color: #fff;
 }
+
+/* line 18, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .sidebar__search-form input:-ms-input-placeholder {
   /* IE 10+ */
   color: #fff;
 }
+
+/* line 23, ../../../../../../../../../../../../../Users/estellechen/Documents/GitHub/totoro-landing/sass/_helper-functions.scss */
 .sidebar__search-form input:-moz-placeholder {
   /* Firefox 18- */
   color: #fff;
 }
+
+/*# sourceMappingURL=style.css.map */
