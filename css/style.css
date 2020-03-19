@@ -2349,31 +2349,32 @@ hr.style-one {
   background-size: cover;
   padding-top: 205px;
   padding-bottom: 195px;
+  margin-bottom: 200px;
 }
 
-/* line 13, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 14, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__image-wrap, .cta-four__image-wrap {
   padding-right: 70px;
 }
 
-/* line 17, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 18, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__image, .cta-four__image {
   overflow: hidden;
   border-radius: 4px;
 }
 
-/* line 21, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 22, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__image > img, .cta-four__image > img {
   width: 100%;
 }
 
-/* line 26, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 27, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__color-box, .cta-four__color-box {
   position: relative;
   min-height: 276px;
 }
 
-/* line 30, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 31, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__color-box:before, .cta-four__color-box:before {
   content: '';
   border-radius: 4px;
@@ -2383,7 +2384,7 @@ hr.style-one {
   position: absolute;
 }
 
-/* line 39, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 40, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__color-box:after, .cta-four__color-box:after {
   content: '';
   border-radius: 4px;
@@ -2393,7 +2394,7 @@ hr.style-one {
   position: absolute;
 }
 
-/* line 50, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 51, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__color-box-2:before, .cta-four__color-box-2:before {
   top: 0;
   right: 0;
@@ -2402,7 +2403,7 @@ hr.style-one {
   background-color: #ef4059;
 }
 
-/* line 58, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 59, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__color-box-2:after, .cta-four__color-box-2:after {
   bottom: 30px;
   left: 30px;
@@ -2411,24 +2412,24 @@ hr.style-one {
   background-color: #9364d4;
 }
 
-/* line 68, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 69, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__color-box-1:before, .cta-four__color-box-1:before {
   top: 30px;
   right: 30px;
 }
 
-/* line 73, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 74, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__color-box-1:after, .cta-four__color-box-1:after {
   bottom: 0;
   left: 0;
 }
 
-/* line 79, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 80, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one .block-title, .cta-four .block-title {
   margin-bottom: 40px;
 }
 
-/* line 83, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 84, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__text, .cta-four__text {
   font-size: 20px;
   color: #666E82;
@@ -2436,7 +2437,7 @@ hr.style-one {
   margin: 0;
 }
 
-/* line 90, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 91, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__list, .cta-four__list {
   margin: 0;
   padding: 0;
@@ -2444,7 +2445,7 @@ hr.style-one {
   margin-top: 45px;
 }
 
-/* line 97, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 98, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__list-item, .cta-four__list-item {
   font-size: 18px;
   position: relative;
@@ -2452,7 +2453,7 @@ hr.style-one {
   padding-left: 30px;
 }
 
-/* line 103, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 104, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__list-item i, .cta-four__list-item i {
   color: #4DA1FF;
   position: absolute;
@@ -2461,12 +2462,12 @@ hr.style-one {
   transform: translateY(-50%);
 }
 
-/* line 112, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 113, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__list-item + .cta-one__list-item, .cta-four__list-item + .cta-one__list-item, .cta-one__list-item + .cta-four__list-item, .cta-four__list-item + .cta-four__list-item {
   margin-top: 5px;
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 117, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__btn, .cta-four__btn {
   display: inline-block;
   vertical-align: middle;
@@ -2482,20 +2483,20 @@ hr.style-one {
   box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
 }
 
-/* line 130, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 131, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-one__btn:hover, .cta-four__btn:hover {
   background-color: #2e3d62;
   color: #fff;
   box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
 }
 
-/* line 139, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 140, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two {
   position: relative;
-  padding-bottom: 120px;
+  padding-bottom: 200px;
 }
 
-/* line 145, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 144, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two [class*=bubble-] {
   position: absolute;
   animation-name: bubbleMover;
@@ -2506,25 +2507,25 @@ hr.style-one {
   perspective: 400px;
 }
 
-/* line 155, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 154, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two .bubble-1 {
   top: 15%;
   left: 10%;
 }
 
-/* line 160, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 159, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two .bubble-2 {
   bottom: 15%;
   left: 40%;
 }
 
-/* line 165, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 164, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two .bubble-3 {
   top: 5%;
   right: 10%;
 }
 
-/* line 171, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 170, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two hr {
   margin: 0;
   border: none;
@@ -2532,12 +2533,12 @@ hr.style-one {
   margin-bottom: 120px;
 }
 
-/* line 178, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 177, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two .block-title {
   margin-bottom: 50px;
 }
 
-/* line 182, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 181, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__moc {
   position: absolute;
   bottom: 70px;
@@ -2545,14 +2546,14 @@ hr.style-one {
 }
 
 @media (max-width: 1440px) {
-  /* line 182, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+  /* line 181, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
   .cta-two__moc {
     transform: scale(0.75);
     transform-origin: right center;
   }
 }
 
-/* line 192, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 191, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__text {
   margin: 0;
   color: #777B92;
@@ -2560,30 +2561,30 @@ hr.style-one {
   line-height: 32px;
 }
 
-/* line 199, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 198, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
 }
 
-/* line 205, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 204, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-icon {
   font-size: 64px;
   color: #4DA1FF;
 }
 
-/* line 211, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 210, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-single:nth-child(2) .cta-two__feature-icon {
   color: #5DD8D3;
 }
 
-/* line 215, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 214, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-single:nth-child(3) .cta-two__feature-icon {
   color: #9364D4;
 }
 
-/* line 219, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 218, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-title {
   margin: 0;
   font-size: 20px;
@@ -2591,18 +2592,18 @@ hr.style-one {
   font-weight: 600;
 }
 
-/* line 225, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 224, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-title a {
   color: #2E3D62;
   transition: all .4s ease;
 }
 
-/* line 229, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 228, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__feature-title a:hover {
   color: #4DA1FF;
 }
 
-/* line 238, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 237, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__btn {
   display: inline-block;
   vertical-align: middle;
@@ -2618,14 +2619,14 @@ hr.style-one {
   box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
 }
 
-/* line 252, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 251, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-two__btn:hover {
   background-color: #2e3d62;
   color: #fff;
   box-shadow: 0px 10px 30px 0px rgba(46, 61, 98, 0.3);
 }
 
-/* line 261, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 260, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three {
   background: transparent url(../images/cta-bg-1-2.png) bottom center no-repeat;
   background-size: cover;
@@ -2634,7 +2635,7 @@ hr.style-one {
   position: relative;
 }
 
-/* line 268, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 267, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three [class*=bubble-] {
   position: absolute;
   animation-name: bubbleMover;
@@ -2645,30 +2646,30 @@ hr.style-one {
   perspective: 400px;
 }
 
-/* line 278, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 277, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three .bubble-1 {
   top: 30%;
   left: 15%;
 }
 
-/* line 283, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 282, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three .bubble-2 {
   top: 30%;
   right: 10%;
 }
 
-/* line 288, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 287, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three .bubble-3 {
   bottom: 10%;
   left: 40%;
 }
 
-/* line 293, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 292, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three .container {
   position: relative;
 }
 
-/* line 297, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 296, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__moc {
   position: absolute;
   top: 50%;
@@ -2676,12 +2677,12 @@ hr.style-one {
   left: 0;
 }
 
-/* line 304, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 303, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three .block-title {
   margin-bottom: 40px;
 }
 
-/* line 308, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 307, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__text {
   font-size: 20px;
   color: #666E82;
@@ -2689,7 +2690,7 @@ hr.style-one {
   margin: 0;
 }
 
-/* line 315, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 314, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__list {
   margin: 0;
   padding: 0;
@@ -2697,7 +2698,7 @@ hr.style-one {
   margin-top: 45px;
 }
 
-/* line 322, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 321, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__list-item {
   font-size: 18px;
   position: relative;
@@ -2705,7 +2706,7 @@ hr.style-one {
   padding-left: 30px;
 }
 
-/* line 328, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 327, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__list-item i {
   color: #4DA1FF;
   position: absolute;
@@ -2714,12 +2715,12 @@ hr.style-one {
   transform: translateY(-50%);
 }
 
-/* line 337, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 336, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__list-item + .cta-three__list-item {
   margin-top: 5px;
 }
 
-/* line 341, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 340, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__btn {
   display: inline-block;
   vertical-align: middle;
@@ -2735,7 +2736,7 @@ hr.style-one {
   box-shadow: 0px 10px 30px 0px rgba(40, 185, 250, 0.3);
 }
 
-/* line 355, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
+/* line 354, ../../../../../../../../../../../../../Users/estelle/Documents/GitHub/totoro-landing/sass/_cta.scss */
 .cta-three__btn:hover {
   background-color: #2e3d62;
   color: #fff;
