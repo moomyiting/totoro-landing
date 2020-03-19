@@ -58,7 +58,7 @@
         padding: 0px 0px !important;
         padding-bottom: 0px !important;
         margin: 0;
-        background: #000;
+        background: #ffffff;
         transition: all .5s ease;
         height: 0;
     }
@@ -152,7 +152,7 @@
     .header-navigation .right-box.nav>li>a {
         padding: 0;
         display: block;
-        color: #fff;
+        color: #111111;
         padding: 16px 0 16px 20px !important;
         transition: background 0.4s ease 0s;
     }
@@ -164,7 +164,7 @@
     .header-navigation ul.navigation-box li a .sub-nav-toggler {
         background-color: transparent;
         background-image: none;
-        border: 1px solid #ff8257;
+        border: 1px solid #4DA1FF;
         border-radius: 4px;
         padding: 9px 9px;
         position: absolute;
@@ -181,7 +181,7 @@
     }
 
     .header-navigation .navigation-box .sub-nav-toggler .icon-bar {
-        background-color: #ff8257;
+        background-color: #4DA1FF;
         border-radius: 1px;
         display: block;
         height: 1px;
@@ -255,9 +255,11 @@
         width: 100%;
         display: none;
         text-align: left;
-        background: #181818;
+        background: #ffffff;
         max-height: 70vh;
         overflow-y: scroll;
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
     }
 
     .header-navigation .container .menu-toggler {
@@ -275,7 +277,7 @@
     .header-navigation .container .menu-toggler {
         float: left;
         margin: 21px 0;
-        color: #111111;
+        color: #ffffff;
         margin-left: 20px;
     }
 
@@ -295,7 +297,7 @@
     }
 
     .site-header.header-one .header-navigation .container .menu-toggler {
-        color: #ff8257;
+        color: #4DA1FF;
     }
 
     .site-header.header-one .header-navigation ul.navigation-box>li {
